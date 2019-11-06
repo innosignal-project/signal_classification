@@ -8,4 +8,4 @@
 
 ## 참고 자료
 
-1. []() 
+1. [FFT(Fast Fourier Transform)](http://blog.naver.com/vmv-tech/220886533146) 
