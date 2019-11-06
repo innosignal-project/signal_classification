@@ -2,6 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.fftpack import fft
 from scipy.signal import welch
+from scipy.signal import stft
 from detect_peaks import detect_peaks
 
 
@@ -81,4 +82,16 @@ for row_no in range(0,4):
           
 plt.tight_layout()
 plt.subplots_adjust(top=0.90, hspace=0.6)
+plt.show()
+
+
+def get_stft_values(y_values, T, N, f_s):
+    f_values, t, stft_values = stft(y_values, fs=f_s)
+    return f_values, t, stft_values
+    
+x_values, t, y_values = get_stft_values(signals, T, N, f_s)
+
+plt.figure(figsize=(5,5))
+plt.tight_layout()
+plt.pcolormesh(t, x_values, np.abs(y_values), cmap='nipy_spectral')
 plt.show()
