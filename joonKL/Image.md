@@ -10,3 +10,6 @@
 *abs()함수를 써서 제대로 된 그래프를 출력
 ![FFT 한 데이터 도식화](https://user-images.githubusercontent.com/54656838/68355092-8bf09500-0151-11ea-94d0-9841dccd126b.jpeg)
 
+
+*Signal analyzer 를 이용해 그래프 출력
+![Signalanalyzer](./image/Signal analyzer 그래프.png)
