@@ -1,5 +1,6 @@
 ## 준기's workspace
 -project management를 위한 github organization 세팅
+-작업 중 관련 된 그림 파일은 Image.md 파일에 업로드
 - 2019.11.05
     - DFT, FFT, STFT 에 관한 기본적인 개념 공부 및 강의 청취
     - Data preprocessing을 위한 기본적인 MATLAB 사용방법 습득

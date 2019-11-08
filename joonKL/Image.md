@@ -12,4 +12,4 @@
 
 
 *Signal analyzer 를 이용해 그래프 출력
-![Signalanalyzer](./image/Signal analyzer 그래프.png)
+![Signal analyzer 그래프](https://user-images.githubusercontent.com/54656838/68451583-ae0e1400-0232-11ea-979d-0547a7d0e758.jpeg)
