@@ -13,3 +13,11 @@
 
 *Signal analyzer 를 이용해 그래프 출력
 ![Signal analyzer 그래프](https://user-images.githubusercontent.com/54656838/68451583-ae0e1400-0232-11ea-979d-0547a7d0e758.jpeg)
+
+
+*RMS 함수를 적용한 그래프 출력
+![RMS 그래프](https://user-images.githubusercontent.com/54656838/68528482-9324c800-0336-11ea-8820-b5aadb05075a.jpeg)
+
+
+*RMS 함수를 적용한 그래프 중 앞부분(초기 용접 주파수), 뒷부분(overlap)을 제외한 본 데이터를 추출
+![RMS 패너](https://user-images.githubusercontent.com/54656838/68528483-9ddf5d00-0336-11ea-905d-6af3ee58eb85.jpeg)
