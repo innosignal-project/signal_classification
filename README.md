@@ -1,6 +1,6 @@
 ## innosignal - signal classfication project
 
-- 기간 : 2019년 11월 5일부터 2019년 11월 11일까지
+- 기간 : 2019년 11월 5일부터 2019년 11월 22일까지
 
 
 ## 참고 자료
