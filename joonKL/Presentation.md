@@ -47,3 +47,9 @@
 *735번 데이터가 불량임을 확인!
 ![735번 불량데이터](https://user-images.githubusercontent.com/54656838/68723891-58a08100-05fd-11ea-9c09-4cf298c27aaa.jpeg)
 
+*matlab 신호분석기(signal analyzer)를 사용해서 불량데이터가 검출할 수 있는 것을 볼 수 있다.
+![신호분석기를 사용한 불량데이터 검출](https://user-images.githubusercontent.com/54656838/68819448-5d336b00-06cb-11ea-8c7e-b4a842654464.jpeg)
+
+*matlab 에서 직접 STFT 함수를 구현하여 plot을 찍어봐도 불량데이터가 검출되는 것을 볼 수 있다.
+![matlab plot 불량데이터검출](https://user-images.githubusercontent.com/54656838/68819612-dc28a380-06cb-11ea-9328-a29189f0efd2.jpg)
+
