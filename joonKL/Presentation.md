@@ -25,7 +25,7 @@
 - Matlab의 앱 기능중 신호분석기라는 앱을 사용하여 그래프를 간단하게 출력할 수 있다는 것을 확인.
 
 *FFT 를 사용하여 이상데이터를 예상해볼 수 있다고 가정.
-![FFT 를 사용한 불량데이터예상](https://user-images.githubusercontent.com/54656838/68660807-36ffb500-057d-11ea-9912-36bc2411f798.jpeg)
+![FFT 를 사용한 이상데이터예상](https://user-images.githubusercontent.com/54656838/68660807-36ffb500-057d-11ea-9912-36bc2411f798.jpeg)
 - 그래프를 보면 데이터의 진폭(A)-주파수 그래프의 모양이 상이하다는 것을 발견할 수 있었음.
 - 그래프의 모양이 상이한 데이터를 불량데이터라고 예상할 수 있다고 생각.
 - 예상 불량데이터에 RMS 함수를 적용하여 그래프를 출력해보면 이상 데이터를 적출할 수 있을 것이라 가정.
@@ -37,26 +37,26 @@
 ![RMS 패너](https://user-images.githubusercontent.com/54656838/68528483-9ddf5d00-0336-11ea-905d-6af3ee58eb85.jpeg)
 
 *RMS 함수를 사용한 그래프를 통한 이상데이터 예상
-![RMS 함수를 사용한 그래프를 통한 불량데이터예상](https://user-images.githubusercontent.com/54656838/68660846-4aab1b80-057d-11ea-9b0d-ed7a25230fd2.jpeg)
+![RMS 함수를 사용한 그래프를 통한 이상데이터예상](https://user-images.githubusercontent.com/54656838/68660846-4aab1b80-057d-11ea-9b0d-ed7a25230fd2.jpeg)
 - FFT 한 그래프를 토대로 불량데이터를 1차적으로 예상하여 검출할 수 있을 것이라 생각했으나 잘못된 가정이었음을 확인.
 - 방향을 바꿔서 모든 데이터를 RMS 함수를 적용하여 변화가 큰폭으로 바뀌는 불량데이터를 검출하기로 계획.
 
 *movRMS 를 사용하여 그래프를 통한 불량 데이터검출이 가능할 것이라고 생각하고 movRMS 를 적용한 데이터를 하나의 변수에 저장한 후 plot 을 찍어보니 불량데이터 발견
-![movRMS 그래프를 통한 불량 데이터검출](https://user-images.githubusercontent.com/54656838/68723731-ce581d00-05fc-11ea-8bca-a35400a071eb.jpeg)
+![movRMS 그래프를 통한 이상데이터검출](https://user-images.githubusercontent.com/54656838/68723731-ce581d00-05fc-11ea-8bca-a35400a071eb.jpeg)
 
 *전체데이터의 movRMS를 적용한 그래프(이상데이터 확인)
 ![1066개의 movRMS를 적용한 데이터의 그래프](https://user-images.githubusercontent.com/54656838/68723795-0b241400-05fd-11ea-8a78-35cfa6506451.jpeg)
 
 *이상데이터 검출! 
-![불량데이터적출](https://user-images.githubusercontent.com/54656838/68723820-1a0ac680-05fd-11ea-8cc8-0c6c924c5146.jpeg)
+![이상데이터적출](https://user-images.githubusercontent.com/54656838/68723820-1a0ac680-05fd-11ea-8cc8-0c6c924c5146.jpeg)
 
 *735번 데이터가 이상임을 확인!
-![735번 불량데이터](https://user-images.githubusercontent.com/54656838/68723891-58a08100-05fd-11ea-9c09-4cf298c27aaa.jpeg)
+![735번 이상데이터](https://user-images.githubusercontent.com/54656838/68723891-58a08100-05fd-11ea-9c09-4cf298c27aaa.jpeg)
 
 *matlab 신호분석기(signal analyzer)를 사용해서 이상데이터가 검출할 수 있는 것을 볼 수 있다.
-![신호분석기를 사용한 불량데이터 검출](https://user-images.githubusercontent.com/54656838/68819448-5d336b00-06cb-11ea-8c7e-b4a842654464.jpeg)
+![신호분석기를 사용한 이상데이터 검출](https://user-images.githubusercontent.com/54656838/68819448-5d336b00-06cb-11ea-8c7e-b4a842654464.jpeg)
 
 *matlab 에서 직접 STFT 함수를 구현하여 plot을 찍어봐도 이상데이터가 검출되는 것을 볼 수 있다.
-![matlab plot 불량데이터검출](https://user-images.githubusercontent.com/54656838/68819612-dc28a380-06cb-11ea-9328-a29189f0efd2.jpg)
+![matlab plot 이상데이터검출](https://user-images.githubusercontent.com/54656838/68819612-dc28a380-06cb-11ea-9328-a29189f0efd2.jpg)
 
 *이상데이터를 찾았으면 그 이상데이터를 불량 데이터인지 확인을 거친 후에(노이즈, 이상패턴) 불량데이터 임을 규정.
